@@ -1,0 +1,1 @@
+Appened data using Append file on same file in Synchronus way and it can also create new file using this 

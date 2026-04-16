@@ -1,0 +1,21 @@
+{
+  "name": "ejsproject",
+  "version": "1.0.0",
+  "description": "Ejs Project for sever side rendering",
+  "license": "ISC",
+  "author": "Krptonox",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "@ljharb/tsconfig": "^0.3.2"
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    h1 {
+        font-family: cursive;
+        font-size: 100px;
+        text-shadow: 5px 5px 10px rgb(21, 66, 164);
+        color: red;
+        font-weight: 800;
+        margin-top: 200px;
+        margin-right: 40px;
+    }
+
+    .box {
+        border: 2px solid white;
+        border-radius: 5px;
+        height: 200px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0 0 20px red;
+    }
+ 
+</style>
+
+<body>
+    <%- include('./partial/header') %>
+
+    <div class="container">
+        <h>Spiderman</h
+            
+            1>
+        <div class="box">
+            <img src="spidy3.png">
+        </div>
+        
+        <div class="box1">
+            <h1>
+                <%= name.email %>
+            </h1>
+
+            <ul>
+                <% name.hobbies.forEach((hobby)=> { %>
+                    <li>
+                        <%= hobby %> 
+                    </li>
+                sa <% }); %>
+            </ul>
+
+           
+        </div>
+ 
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+{"id":1,"name":"Kaluu Trijal","email":"user1@example.com","address":{"street":"1 Main Street","city":"City 1","state":"State 1","zip":"10001"},"contact":{"phone":"+91-9000000001","alternatePhone":"+91-8000000001"}}

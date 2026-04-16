@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "User 1",
+    "email": "user1@example.com",
+    "address": {
+      "street": "1 Main Street",
+      "city": "City 1",
+      "state": "State 1",
+      "zip": "10001"
+    },
+    "contact": {
+      "phone": "+91-9000000001",
+      "alternatePhone": "+91-8000000001"
+    }
+  },
+  {
+    "id": 2,
+    "name": "User 2",
+    "email": "user2@example.com",
+    "address": {
+      "street": "2 Main Street",
+      "city": "City 2",
+      "state": "State 2",
+      "zip": "10002"
+    },
+    "contact": {
+      "phone": "+91-9000000002",
+      "alternatePhone": "+91-8000000002"
+    }
+  }
+]
