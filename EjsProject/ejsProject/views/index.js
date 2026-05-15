@@ -19,11 +19,13 @@ console.log("hello from middleware 2....",req.name);
 next();
 });
 
+
 app.use((req,res,next)=>{
-    req.name="Lucky Sharma Devloper"
+req.name="Lucky Sharma Devloper"
 console.log("hello from middleware 3....");
 next();
 });
+
 
 app.get('/', (req, res) => {
     
@@ -34,11 +36,11 @@ app.get('/', (req, res) => {
         marks : 26,
         hobbies : ["study", "astronomy", "Life Playing with me"]
     }
-
-    // res.render('home', { name: 'knox' });
-    // res.write(student);
+       // res.render('home', { name: 'knox' });
+       // res.write(student);
        res.render('home', { name: student });
 });
+
 
 app.listen(5000, () => {
     console.log('http://localhost:5000/');
