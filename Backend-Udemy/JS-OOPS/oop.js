@@ -6,9 +6,8 @@ let car = {
         return `The ${this.make} ${this.model} is starting.`
     }
 }
-
-// console.log(car)
-// console.log(car.start());
+  console.log(car)
+  console.log(car.start());
 
 // function Person(name,age){
 //     this.name = name;
@@ -45,6 +44,8 @@ Array.prototype.batman = function(){
 let myArray = [1,2,3,4,5];
 // console.log(myArray.batman());
 
+
+//constructor ek function hai jise hm new keyword ke sath call karte hai. Ye ek object create karta hai aur uske properties ko initialize karta hai.
 class Vehicle {
     constructor(make,model){
         this.make = make;
@@ -63,12 +64,12 @@ class Car extends Vehicle {
     }
 }
 
-// console.log(`Vehicle`,Vehicle)
-// console.log(`Car`,Car)
+console.log(`Vehicle`,Vehicle)
+console.log(`Car`,Car)
 
-// const myCar = new Car("Audi","Q7");
-// console.log(`myCar`,myCar.start())
-// console.log(myCar.drive())
+const myCar = new Car("Audi","Q7");
+console.log(`myCar`,myCar.start())
+console.log(myCar.drive())
 
 
 //Encapsulation
