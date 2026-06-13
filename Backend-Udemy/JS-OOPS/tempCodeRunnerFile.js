@@ -1,0 +1,1 @@
+console.log(minCalc.add(5,10));
